@@ -35,9 +35,7 @@ class MainFrame extends JFrame{
 				// show all rows
 				if (str.length() == 0) {
 					table.sorter.setRowFilter(null);
-				} else if (str.length() > 2) {
-					JOptionPane.showMessageDialog(frame, " Max Length arrived", "", JOptionPane.WARNING_MESSAGE);
-				}
+				} 
 				// set filter to the string, case insensitive
 				else {
 						table.sorter.setRowFilter(RowFilter.regexFilter(("(?i)" + str), 
