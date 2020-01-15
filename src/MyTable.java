@@ -17,6 +17,7 @@ import java.util.ArrayList;
 //TableModel that returns the actual class and not String
 //May or may not be needed
 class MyModel extends DefaultTableModel{
+	//TODO Insert actual class order
 	Class[] columnClass= new Class[] {String.class, String.class, String.class, Integer.class, String.class};
 	
 	MyModel(Object[][] data, String[] columnNames){
